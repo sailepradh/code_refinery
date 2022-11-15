@@ -1,4 +1,4 @@
-# a list of all the books we are analyzing
+# a list of all the books we are analyzing and adding more information
 DATA = glob_wildcards('data/{book}.txt').book
 
 # this is for running on HPC resources
